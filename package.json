@@ -1,6 +1,9 @@
 {
-  "name": "termina-pos-lib",
-  "version": "1.0.0",
+  "name": "@matew17/terminal-pos-lib",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/matew17"
+  },
+  "version": "1.0.2",
   "description": "A library for Terminal Pos app",
   "scripts": {
     "build": "npm run build:js",
@@ -10,8 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "@babel/runtime": "^7.18.9",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.18.10",
@@ -22,8 +25,8 @@
     "@rollup/plugin-babel": "^5.3.1",
     "@rollup/plugin-commonjs": "^22.0.2",
     "@rollup/plugin-node-resolve": "^13.3.0",
-    "@types/react": "^17.0.5",
-    "@types/react-dom": "^17.0.5",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
     "rollup": "^2.78.0",
     "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-node-externals": "^4.1.1",
