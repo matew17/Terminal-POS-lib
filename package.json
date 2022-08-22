@@ -3,18 +3,23 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/matew17"
   },
-  "version": "1.0.2",
+  "version": "1.0.7",
+  "main": "build/index.js",
+  "module": "build/index.esm.js",
+  "files": [
+    "build"
+  ],
+  "types": "build/index.d.ts",
   "description": "A library for Terminal Pos app",
   "scripts": {
     "build": "npm run build:js",
-    "build:js": "rollup -c rollup.config.js"
+    "build:js": "rollup -c"
   },
   "author": "Mateo Castaño",
   "license": "ISC",
-  "dependencies": {
-    "@babel/runtime": "^7.18.9",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+  "peerDependencies": {
+    "react": ">=18.2.0",
+    "react-dom": ">=18.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.18.10",
@@ -22,17 +27,22 @@
     "@babel/preset-env": "^7.18.10",
     "@babel/preset-react": "^7.18.6",
     "@babel/preset-typescript": "^7.18.6",
+    "@babel/runtime": "^7.18.9",
     "@rollup/plugin-babel": "^5.3.1",
     "@rollup/plugin-commonjs": "^22.0.2",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
+    "node-sass": "^7.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rollup": "^2.78.0",
     "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-node-externals": "^4.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.33.0",
+    "sass-loader": "^13.0.2",
     "typescript": "^4.2.4"
-  },
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
-  "sideEffects": false
+  }
 }

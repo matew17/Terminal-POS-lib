@@ -1,1 +1,3 @@
-export * from "./components/Button";
+import ProfileComponent from "./profile";
+
+export { ProfileComponent };

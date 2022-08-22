@@ -1,0 +1,15 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-pic {
+  align-self: center;
+  border-radius: 64px;
+  height: 100px;
+  width: 100px;
+}
+
+.full-name {
+  text-transform: capitalize;
+}
