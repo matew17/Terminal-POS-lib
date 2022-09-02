@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/matew17"
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "build/index.js",
   "module": "build/index.esm.js",
   "files": [

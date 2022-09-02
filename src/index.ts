@@ -1,3 +1,4 @@
 import ProfileComponent from "./profile";
+import LoginComponent from "./login";
 
-export { ProfileComponent };
+export { ProfileComponent, LoginComponent };

@@ -1,0 +1,38 @@
+.login {
+  padding: 24px;
+  background: plum;
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+
+  form {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input-wrapper {
+    width: 100%;
+    margin: 24px 0;
+    text-align: center;
+
+    input {
+      border-radius: 20px;
+      border: 0;
+      padding: 8px;
+    }
+  }
+
+  button {
+    cursor: pointer;
+    border: none;
+    background: rgb(44, 44, 44);
+    color: #fff;
+    padding: 8px;
+    border-radius: 20px;
+  }
+}
